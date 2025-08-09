@@ -1,9 +1,9 @@
 ;; TRAITS
 ;; DEVNET STANDARD
-(use-trait sip-010-trait .sip-010-trait-ft-standard.sip-010-trait)
+;;(use-trait sip-010-trait .sip-010-trait-ft-standard.sip-010-trait)
 
 ;; TESTNET STANDARD (commented out for devnet deployment)
-;; (use-trait sip-010-trait 'ST2SHP0RSX5ST9HTKJM4JF6SGQ686P4GJGF2XHHTX.sip-010-trait-ft-standard.sip-010-trait)
+ (use-trait sip-010-trait 'ST2SHP0RSX5ST9HTKJM4JF6SGQ686P4GJGF2XHHTX.sip-010-trait-ft-standard.sip-010-trait)
 
 ;; CONSTANTS
 (define-constant ERR_UNAUTHORIZED (err u401))
