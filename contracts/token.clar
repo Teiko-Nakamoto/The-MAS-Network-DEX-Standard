@@ -1,8 +1,8 @@
 ;; DEVNET STANDARD
-(impl-trait .sip-010-trait-ft-standard.sip-010-trait)
+;;(impl-trait .sip-010-trait-ft-standard.sip-010-trait)
 
 ;; TESTNET STANDARD (commented out for devnet deployment)
-;; (impl-trait 'ST2SHP0RSX5ST9HTKJM4JF6SGQ686P4GJGF2XHHTX.sip-010-trait-ft-standard.sip-010-trait)
+ (impl-trait 'ST2SHP0RSX5ST9HTKJM4JF6SGQ686P4GJGF2XHHTX.sip-010-trait-ft-standard.sip-010-trait)
 
 ;; ---- Constants ----
 (define-constant CONTRACT_OWNER 'ST37918Q7NBZ52AMV133VTY5C864KVK0S2HZ3CGA4)
